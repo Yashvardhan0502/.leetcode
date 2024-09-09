@@ -14,6 +14,7 @@ int get_max(int arr[], int size){
     return max;
 }
 
+
 //minimum value 
 int get_min(int arr[], int size){
     int min = INT_MAX;
