@@ -16,7 +16,10 @@ void reverse(int arr[], int size){
 //reverse alternative elemets in a array
 void reverseAlternative(int arr[], int size){
     for (int i = 0; i< size; i+=2){
-        swap(arr[i],arr[i+1]);
+        if (i+1 < size){
+             swap(arr[i],arr[i+1]);
+        }
+       
     }
 }
 
@@ -36,4 +39,4 @@ int main() {
    printArr(arr2,10);
 
     return 0;
-}s
+}
